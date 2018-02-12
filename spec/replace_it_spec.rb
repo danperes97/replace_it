@@ -1,5 +1,4 @@
-require "spec_helper"
-require 'pry'
+require 'spec_helper'
 
 describe ReplaceIt do
   let(:file_name)   { 'testfile.txt' }

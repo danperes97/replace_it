@@ -1,2 +1,3 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "replace_it"
+require 'replace_it'
+require 'pry'
