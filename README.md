@@ -27,11 +27,11 @@ Or install it yourself as:
 To replace one string from a `.txt`:
 
 ```ruby
-#Replace the original file be careful
-document_replace!(file_name: 'yourfilename.txt', 'mystring', 'mynewstring')
-
 #Create a new file with the same content
-document_replace(file_name: 'yourfilename.txt', 'mystring', 'mynewstring')
+ReplaceIt.document_replace(temp_file: 'temp_file.txt' , original_file: 'yourfilename.txt', string: 'mystring', new_string: 'mynewstring')
+
+replace = ReplaceDocument.new('temp_file.txt', 'myfile.txt')
+replace.document_replace('mystring', 'mynewstring')
 ```
 
 
